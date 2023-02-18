@@ -1,0 +1,20 @@
+client:
+  udpChannelProperties:
+    channelMap:
+      RCVRCHNL1:
+        ipAddress: ${RECEIVER_ADDR}
+        port: ${RECEIVER_PORT}
+        streamType: RECEIVER
+      SNDRCHNL1:
+        ipAddress: ${SENDER_ADDR}
+        port: ${SENDER_PORT}
+        streamType: SENDER
+
+logging:
+  level:
+    com:
+      oneentropy: DEBUG
+
+spring:
+  main:
+    web-application-type: NONE
