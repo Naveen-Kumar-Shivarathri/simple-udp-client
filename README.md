@@ -12,3 +12,4 @@ java -DRECEIVER_ADDR=230.0.0.0 -DRECEIVER_PORT=4546 -DSENDER_ADDR=230.0.0.0 -DSE
 java -DRECEIVER_ADDR=230.0.0.0 -DRECEIVER_PORT=4545 -DSENDER_ADDR=230.0.0.0 -DSENDER_PORT=4546 -jar simple-udp-client-0.0.1-SNAPSHOT.jar
 ````
 
+You can send message in any instance which is automatically read by the other instance
