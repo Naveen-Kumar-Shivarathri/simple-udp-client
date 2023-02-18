@@ -44,7 +44,7 @@ public class SimpleUdpClientApplication implements CommandLineRunner {
 		Map<String, String> data = new HashMap<>();
 		while(true) {
 
-			//log.info("Enter message:");
+			log.info("Enter message:");
 			if(!scanner.hasNext())
 				System.exit(0);
 			String message = scanner.nextLine();

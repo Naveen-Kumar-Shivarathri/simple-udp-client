@@ -1,7 +1,6 @@
 package com.oneentropy.client.conf;
 
 import com.oneentropy.udp.pub.sub.config.UdpChannelProperties;
-import com.oneentropy.udp.pub.sub.model.ChannelController;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -22,12 +21,6 @@ public class PubSubConf {
     public UdpChannelProperties createUdpChannelProperties(){
         return this.udpChannelProperties;
     }
-
-    @Bean
-    public ChannelController createChannelController(){
-        return new ChannelController();
-    }
-
 
 
 }
