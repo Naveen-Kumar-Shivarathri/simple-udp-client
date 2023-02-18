@@ -10,6 +10,16 @@ client:
         port: ${SENDER_PORT}
         streamType: SENDER
 
+one:
+  entropy:
+    reactive:
+      udp:
+        pub:
+          sub:
+            node:
+              name: SIMPLE_CLIENT
+              env: LOCAL
+
 logging:
   level:
     com:
@@ -18,3 +28,5 @@ logging:
 spring:
   main:
     web-application-type: NONE
+
+
